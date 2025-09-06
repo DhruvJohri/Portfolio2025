@@ -6,16 +6,19 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Netflix Clone",
-      description: "Built a Netflix clone using MERN stack with responsive UI mimicking Netflix. Integrated TMDB API to fetch real movie data and implemented smart debouncing with dynamic content.",
-      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "TMDB API", "JavaScript"],
-      liveUrl: "https://netflix-clone-mern-stack-kkrj16kxa-dhruv-johris-projects.vercel.app/",
-      githubUrl: "https://github.com/DhruvJohri/Netflix-Clone-MERN-Stack",
+      title: "Password Manager",
+      description: "Built a Password Manager using MERN stack || Responsive UI (Tailwind CSS) || Password CRUD with Show/Hide & Copy || Secure API (Express.js & MongoDB) || Notifications (React-Toastify) || Deployed on Vercel & Render",
+      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript"],
+      liveUrl: "https://frontend-password-manager-lemon.vercel.app/",
+      githubUrl: "https://github.com/DhruvJohri/Frontend-Password-Manager.git",
       features: [
-        "Responsive UI mimicking Netflix",
-        "Real-time movie data from TMDB API", 
-        "Smart debouncing for search",
-        "Dynamic content loading"
+       "Built a Password Manager using MERN stack",
+"Responsive UI with Tailwind CSS",
+"Password CRUD with Show/Hide & Copy",
+"Secure API with Express.js & MongoDB",
+"Notifications with React-Toastify",
+"Deployed on Vercel & Render"
+
       ]
     },
     {
@@ -124,5 +127,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
